@@ -6782,3 +6782,31 @@ blockquote::before {
     }
 
 }
+
+.portal_wrap {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.portal-container {
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 884px) {
+
+    .portal-container {
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+
+    .portal-container {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+}
