@@ -801,25 +801,29 @@ input[type=submit] {
 .header-area {
     justify-content: space-around;
     position: relative;
-    padding-block: 26px;
+    /* padding-block: -46px !important; */
 }
 
-.header-area .logo {
+/* .header-area .logo {
     position: absolute;
     top: -12px;
     left: 80px;
     z-index: 100000;
-}
+} */
 
 .header-area .logo img {
-    width: 150px;
+    width: 100px;
 }
 
-.header-area .menu {
+header {
+    padding-block: 8px !important;
+}
+
+/* .header-area .menu {
     position: absolute;
     top: 0;
     left: 440px;
-}
+} */
 
 .header-area .header-bar {
     position: absolute;
@@ -827,11 +831,11 @@ input[type=submit] {
     left: 285px;
 }
 
-.header-area .custom-button {
+/* .header-area .custom-button {
     position: absolute;
     top: 0;
     right: 83px;
-}
+} */
 
 .video-button::after, .video-button::before, blockquote::before, .video-area .video-button {
     top: 50%;
@@ -6795,6 +6799,10 @@ blockquote::before {
 
 @media screen and (max-width: 884px) {
 
+    header {
+        padding-block: 20px !important;
+    }
+
     .portal-container {
         width: 60%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -6803,6 +6811,10 @@ blockquote::before {
 }
 
 @media screen and (max-width: 428px) {
+
+    header {
+        padding-block: 17px !important;
+    }
 
     .portal-container {
         width: 100%;
